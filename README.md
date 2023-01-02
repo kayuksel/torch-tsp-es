@@ -6,4 +6,4 @@ This repository contains the open-source implementation for a TSP solver that ut
 
 TSP is a well-known problem in computer science, in which a salesman must visit a set of cities, traveling from city to city and returning to the starting city in the end, in the shortest possible route. The CMA-ES algorithm is a popular heuristic optimization method used to find approximate solutions to difficult optimization problems, such as the TSP.
 
-This implementation takes advantage of GPU acceleration provided by the PyTorch framework to significantly improve the performance of the CMA-ES algorithm. The solver has been tested on a range of TSP instances of varying sizes and has demonstrated good performance. To use the solver and output the final solution, simply run main.py.
+This implementation takes advantage of GPU acceleration provided by the PyTorch framework to significantly improve the performance of the CMA-ES algorithm. The solver has been tested on a range of TSP instances of varying sizes and has demonstrated good performance. To use the solver and output solutions, run main.py.
