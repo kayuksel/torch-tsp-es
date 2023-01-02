@@ -77,7 +77,7 @@ def plot_sol(rank):
 with torch.no_grad():
     best_reward = None
     cma_es = FastCMA(N = len(points), samples=512)
-    while True:
+    for epoch in range(10000):
         try:
             res = cma_es.step(objective_f = reward_func)
         except Exception as e: 
